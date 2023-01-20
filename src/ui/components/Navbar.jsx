@@ -56,7 +56,7 @@ export const Navbar = () => {
               href="https://github.com/WilliamsMata"
               target="_blank"
             >
-              {user?.name}{" "}
+              {user?.name}
             </a>
             <button className="nav-item nav-link btn" onClick={onLogout}>
               Logout
